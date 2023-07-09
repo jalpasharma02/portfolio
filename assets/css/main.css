@@ -2316,11 +2316,23 @@ button,
 
     .mobile-design-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, 300px);
+      grid-template-columns: repeat(auto-fit, 400px);
       grid-row-gap: 10px;
       grid-column-gap: 10px;
       justify-content: center;
     }
+
+    @media all and (max-width: 736px) {
+      .mobile-design-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 100%);
+      grid-row-gap: 10px;
+      grid-column-gap: 10px;
+      justify-content: center;
+      }
+    }
+
+    
 
     
     
