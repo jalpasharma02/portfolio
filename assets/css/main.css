@@ -2277,22 +2277,56 @@ button,
       display: inline-block;
       margin: 0 0 1em 0;
       padding: 0 0.75em 0.5em 0; }
+     
+      header.major-green > :last-child {
+        border-bottom: solid 3px #486D70;
+        display: inline-block;
+        margin: 0 0 1em 0;
+        padding: 0 0.75em 0.5em 0; }  
+
+        .light-green-tile {
+          margin-top: 10px;
+          background-color: #DFE9DE;
+          border-radius: 2px;
+          padding: 10px;
+        }
 
       .flex-wrap-div {
         display: flex;
         flex-wrap: wrap;
         gap: 10px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
       }
 
       .width-50-100 {
         width: 49%;
       }
-
+      .width-50-100-normal {
+        width: 49%;
+      }
       .flex-content {
         margin-left:20px;
         margin-top: 10px;
       }
+
+      .dark-green-disc {
+        background-color: #486D70;
+        border-radius: 30px;
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+   
+      .green-li {
+        color: #486D70;
+        }
+
+        .green-li-text {
+          color: #353535;
+        }
+      
 
       @media all and (max-width: 736px) {
         .image.tablet-full {
@@ -2304,6 +2338,10 @@ button,
         margin: 0;
         padding: 0;
       }
+      .width-50-100-normal {
+        width: 100%;
+      }
+
       .flex-content {
         margin-left: 0;
         margin-top: 20px;
