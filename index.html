@@ -19,6 +19,28 @@
 		p {
 			font-size: 16px;
 		}
+
+		.gif-image {
+			width: 200px;
+			height: 300px;
+
+			@media screen and (max-width: 480px) {
+				width: 90%;
+				height: 60vh
+			}
+		}
+
+		.posts article.maestro {
+			margin-top: -80px;
+
+			@media screen and (max-width: 798px) {
+				margin-top: -30px;
+			}
+
+			@media screen and (max-width: 480px) {
+				margin-top: 0;
+			}
+		}
 	</style>
 </head>
 
@@ -71,17 +93,18 @@
 					<div class="posts"
 						style="display: flex; justify-content: center;align-items: center; flex-wrap: wrap;">
 						<article style="text-align: center;display: flex;flex-direction:column; align-items: center;">
-							<a href="./homecloud.html" class="image"><img src="images/homecloud/homecloud1.jpg"
-									alt="" /></a>
+							<a href="./homecloud.html" class="image"><img class="gif-image"
+									src="images/homecloud/HomeCloudGif.gif" alt="" /></a>
 							<h2 style="margin-bottom: 10px;">HomeCloud</h2>
 							<p style="margin-bottom: 20px;">Database of investment homes</p>
 							<ul class="actions" style="display: flex; justify-content: center;">
 								<li><a href="./homecloud.html" class="button">More</a></li>
 							</ul>
 						</article>
-						<article style="text-align: center;display: flex;flex-direction:column; align-items: center;">
-							<a href="./maestro.html" class="image" style="width: 75%;"><img
-									src="images/maestro/maestromain.jpg" alt="" /></a>
+						<article class="maestro"
+							style="text-align: center;display: flex;flex-direction:column; align-items: center;">
+							<a href="./maestro.html" class="image"><img class="gif-image"
+									src="images/maestro/Maestro.gif" alt="" /></a>
 							<h2 style="margin-bottom: 10px;">Maestro</h2>
 							<p style="margin-bottom: 20px;">Climb the ladder of career change with us</p>
 							<ul class="actions" style="display: flex; justify-content: center;">
@@ -89,8 +112,7 @@
 							</ul>
 						</article>
 						<article style="text-align: center;display: flex;flex-direction:column; align-items: center;">
-							<a href="./wordstock.html" class="image" style="width: 75%;"><img
-									src="images/wordstock/main.jpeg" alt="" /></a>
+							<a href="./wordstock.html" class="image"><img src="images/wordstock/main.jpeg" alt="" /></a>
 							<h2 style="margin-bottom: 10px;">Wordstock</h2>
 							<ul class="actions" style="display: flex; justify-content: center;">
 								<li><a href="./wordstock.html" class="button">More</a></li>
